@@ -1,0 +1,196 @@
+$skyblue: #2980b9;
+$asbestosGrey: #7f8c8d;
+$silver: #bdc3c7;
+$concrete: #95a5a6;
+
+//FONTS:
+$flat:'Nova Flat', cursive;
+$Lato:'Lato', sans-serif;
+$Oswald:'Oswald', sans-serif;
+
+body{
+	h1{
+		font-size: 5em;
+		font-family: $Oswald;
+	}
+
+	h2{
+		font-size: 4em;
+		font-family: $Oswald;
+	}
+
+	h3{
+		font-size: 3em;
+		font-family: $Oswald;
+
+	}
+	h4{
+		font-size: 2em;
+		font-family: $Oswald;
+	}
+
+	p{
+		font-size: 1.5em;
+		font-family: $Lato;
+		font-weight: 300;
+	}
+}
+
+.navbar{
+	background-color: $skyblue;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	border-style: solid;
+    border-color: $skyblue;
+    border-radius: 0px;
+}
+
+.section1 {
+	padding-top: 0px;
+	margin-top: 0px;
+	background-color: $skyblue;
+	color: white;
+	font-family: $Lato;
+	padding-bottom: 35px;
+	
+	
+	h1{
+		font-size: 5em;
+		text-align: center;
+	}
+
+	#topCircle{
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	#section1Content{
+		
+	}
+}
+
+.section2{
+
+	.section2Content{
+
+		h1{
+			text-align: center;
+			color: $skyblue;
+		}
+
+		h2{
+			font-family: $Lato;
+			text-align: center;	
+		}
+	padding-bottom: 50px;
+	}
+
+}
+
+.section3{
+	background-color: #ecf0f1;
+	color: black;
+
+	h1{
+		color: black;
+		text-align: center;
+	}
+
+	h4{
+		font-family: $Oswald;
+		font-weight: 300;
+	}
+	.section3Content{
+
+		.glyphicon{
+			color: $skyblue;
+		}
+
+		
+		color: black;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	p{
+		text-align: center;
+	}
+
+}
+
+.section4{
+	
+	background-color: $skyblue;
+
+	img { width: 100%; }
+
+
+	h1{
+		padding-bottom: 15px;
+		text-align: center;
+		color: white;
+	}
+
+	.section4Content{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+ 	#portfolioButton{
+ 		display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 	}
+}
+
+.caption{
+	h4{
+		text-align: center;
+	}
+
+	height: 200px;
+}
+
+.section5{
+	background-color: white;
+
+	h1{
+		color: $skyblue;
+		text-align: center;
+	}
+	.section5Content{
+		padding-top: 25px;
+		padding-bottom: 45px;
+	}
+}
+
+.section6{
+	background-color: #34495e;
+	text-align: center; 
+	color: white;
+
+	h4{
+		font-family: $Lato;
+	}
+
+	.section6Content{
+		padding-top: 25px;
+		padding-bottom: 45px;
+	}
+}
+
+.socMed{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+	//border-top: 1px solid;
+	color: white;
+	//border-color: #7f8c8d;
+	background-color: #2c3e50;
+	text-align: center;
+}
+
