@@ -36,6 +36,33 @@ body{
 	}
 }
 
+.page{
+	h1{
+		color: $skyblue;
+	}
+
+	.font1{
+		font-family: $Lato;
+	}
+
+	.font2{
+		font-family: $Oswald;
+	}
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-family: $Lato;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: $Lato;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border-color: $skyblue;
+}
 .navbar{
 	background-color: $skyblue;
 	margin-bottom: 0px;
@@ -43,6 +70,11 @@ body{
 	border-style: solid;
     border-color: $skyblue;
     border-radius: 0px;
+    color: white;
+}
+
+.navbarContainer{
+	margin-bottom: 51px;
 }
 
 .section1 {
@@ -52,7 +84,7 @@ body{
 	color: white;
 	font-family: $Lato;
 	padding-bottom: 35px;
-	
+	color: white;
 	
 	h1{
 		font-size: 5em;
@@ -184,6 +216,60 @@ body{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.postsContainer{
+	
+}
+.post{
+	//border-style: solid;
+	padding-bottom: 50px;
+
+
+	hr{
+		color: black;
+	}
+
+	.postLink {
+		color: $skyblue;
+		font-size: 1em;
+		font-family: $Oswald;
+	}
+	
+
+	.postContent{
+		padding-top: 15px;
+		color: black;
+
+	h1{
+		font-size: 2em;
+		color: black;
+	}
+
+	h2{
+		font-size: 1.8em;
+	}
+
+	h3{
+		color: $skyblue;
+		font-size: 1.6em;
+	}
+
+
+	}
+
+	.postTitle{
+		color: $skyblue;
+	}
+}
+
+.sidebar{
+	border-left: 1px solid;
+    border-left-color: $silver;
+
+    .sidebarTitle{
+    	text-align: center;
+    }
 }
 
 footer{
