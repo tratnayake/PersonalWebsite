@@ -25,7 +25,37 @@ body p {
   font-weight: 300;
 }
 
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
+.page h1 {
+  color: #2980b9;
+}
+/* line 44, ../scss/main.scss */
+.page .font1 {
+  font-family: "Lato", sans-serif;
+}
+/* line 48, ../scss/main.scss */
+.page .font2 {
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 53, ../scss/main.scss */
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 58, ../scss/main.scss */
+.navbar-default .navbar-brand {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 63, ../scss/main.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #2980b9;
+}
+
+/* line 66, ../scss/main.scss */
 .navbar {
   background-color: #2980b9;
   margin-bottom: 0px;
@@ -33,9 +63,15 @@ body p {
   border-style: solid;
   border-color: #2980b9;
   border-radius: 0px;
+  color: white;
 }
 
-/* line 48, ../scss/main.scss */
+/* line 76, ../scss/main.scss */
+.navbarContainer {
+  margin-bottom: 51px;
+}
+
+/* line 80, ../scss/main.scss */
 .section1 {
   padding-top: 0px;
   margin-top: 0px;
@@ -43,138 +79,187 @@ body p {
   color: white;
   font-family: "Lato", sans-serif;
   padding-bottom: 35px;
+  color: white;
 }
-/* line 57, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .section1 h1 {
   font-size: 5em;
   text-align: center;
 }
-/* line 62, ../scss/main.scss */
+/* line 94, ../scss/main.scss */
 .section1 #topCircle {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 75, ../scss/main.scss */
+/* line 107, ../scss/main.scss */
 .section2 .section2Content {
   padding-bottom: 50px;
 }
-/* line 77, ../scss/main.scss */
+/* line 109, ../scss/main.scss */
 .section2 .section2Content h1 {
   text-align: center;
   color: #2980b9;
 }
-/* line 82, ../scss/main.scss */
+/* line 114, ../scss/main.scss */
 .section2 .section2Content h2 {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
 
-/* line 91, ../scss/main.scss */
+/* line 123, ../scss/main.scss */
 .section3 {
   background-color: #ecf0f1;
   color: black;
 }
-/* line 95, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 .section3 h1 {
   color: black;
   text-align: center;
 }
-/* line 100, ../scss/main.scss */
+/* line 132, ../scss/main.scss */
 .section3 h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
-/* line 104, ../scss/main.scss */
+/* line 136, ../scss/main.scss */
 .section3 .section3Content {
   color: black;
   text-align: center;
   padding-bottom: 50px;
 }
-/* line 106, ../scss/main.scss */
+/* line 138, ../scss/main.scss */
 .section3 .section3Content .glyphicon {
   color: #2980b9;
 }
-/* line 116, ../scss/main.scss */
+/* line 148, ../scss/main.scss */
 .section3 p {
   text-align: center;
 }
 
-/* line 122, ../scss/main.scss */
+/* line 154, ../scss/main.scss */
 .section4 {
   background-color: #2980b9;
 }
-/* line 126, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .section4 img {
   width: 100%;
 }
-/* line 129, ../scss/main.scss */
+/* line 161, ../scss/main.scss */
 .section4 h1 {
   padding-bottom: 15px;
   text-align: center;
   color: white;
 }
-/* line 135, ../scss/main.scss */
+/* line 167, ../scss/main.scss */
 .section4 .section4Content {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 140, ../scss/main.scss */
+/* line 172, ../scss/main.scss */
 .section4 #portfolioButton {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 147, ../scss/main.scss */
+/* line 179, ../scss/main.scss */
 .caption {
   height: 200px;
 }
-/* line 148, ../scss/main.scss */
+/* line 180, ../scss/main.scss */
 .caption h4 {
   text-align: center;
 }
 
-/* line 155, ../scss/main.scss */
+/* line 187, ../scss/main.scss */
 .section5 {
   background-color: white;
 }
-/* line 158, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 .section5 h1 {
   color: #2980b9;
   text-align: center;
 }
-/* line 162, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 .section5 .section5Content {
   padding-top: 25px;
   padding-bottom: 45px;
 }
 
-/* line 168, ../scss/main.scss */
+/* line 200, ../scss/main.scss */
 .section6 {
   background-color: #34495e;
   text-align: center;
   color: white;
 }
-/* line 173, ../scss/main.scss */
+/* line 205, ../scss/main.scss */
 .section6 h4 {
   font-family: "Lato", sans-serif;
 }
-/* line 177, ../scss/main.scss */
+/* line 209, ../scss/main.scss */
 .section6 .section6Content {
   padding-top: 25px;
   padding-bottom: 45px;
 }
 
-/* line 183, ../scss/main.scss */
+/* line 215, ../scss/main.scss */
 .socMed {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 189, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
+.post {
+  padding-bottom: 50px;
+}
+/* line 229, ../scss/main.scss */
+.post hr {
+  color: black;
+}
+/* line 233, ../scss/main.scss */
+.post .postLink {
+  color: #2980b9;
+  font-size: 1em;
+  font-family: "Oswald", sans-serif;
+}
+/* line 240, ../scss/main.scss */
+.post .postContent {
+  padding-top: 15px;
+  color: black;
+}
+/* line 244, ../scss/main.scss */
+.post .postContent h1 {
+  font-size: 2em;
+  color: black;
+}
+/* line 249, ../scss/main.scss */
+.post .postContent h2 {
+  font-size: 1.8em;
+}
+/* line 253, ../scss/main.scss */
+.post .postContent h3 {
+  color: #2980b9;
+  font-size: 1.6em;
+}
+/* line 261, ../scss/main.scss */
+.post .postTitle {
+  color: #2980b9;
+}
+
+/* line 266, ../scss/main.scss */
+.sidebar {
+  border-left: 1px solid;
+  border-left-color: #bdc3c7;
+}
+/* line 270, ../scss/main.scss */
+.sidebar .sidebarTitle {
+  text-align: center;
+}
+
+/* line 275, ../scss/main.scss */
 footer {
   color: white;
   background-color: #2c3e50;
